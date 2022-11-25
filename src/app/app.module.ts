@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AddPostComponent } from './add-post/add-post.component';
+import { ViewAllPostComponent } from './view-all-post/view-all-post.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AddPostComponent
+    AddPostComponent,
+    ViewAllPostComponent
   ],
   imports: [
     BrowserModule,
