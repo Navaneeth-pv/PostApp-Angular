@@ -7,27 +7,27 @@
                 
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="" class="form-label">User ID</label>
-                    <input type="text" class="form-control">
+                    <input name="userId"[(ngModel)]="userId" type="text" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="" class="form-label">ID</label>
-                    <input type="text" class="form-control">
+                    <input name="id"[(ngModel)]="id" type="text" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
 
                     <label for="" class="form-label">title</label>
-                    <input type="text" class="form-control">
+                    <input name="title"[(ngModel)]="title" type="text" class="form-control">
 
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
 
                     <label for="" class="form-label">Body</label>
-                    <input type="text" class="form-control">
+                    <input name="body"[(ngModel)]="body" type="text" class="form-control">
 
                 </div>
             
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <button class="btn btn-success ">Submit</button>
+                    <button (click)="readValues()" class="btn btn-success ">Submit</button>
                 </div>
             </div>
 
